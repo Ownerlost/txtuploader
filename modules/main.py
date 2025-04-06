@@ -61,7 +61,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["madno"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('**𝐇𝐞𝐲 [madno ᥫ᭡](http://t.me/SmexyOP) 𝙃𝙚𝙧𝙚🍷 \n\n 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 ⏍**')
+    editable = await m.reply_text('**𝐇𝐞𝐲 [Զเधे Զเधे](http://t.me/SmexyOP) 𝙃𝙚𝙧𝙚🍷 \n\n 𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐀 𝐓𝐱𝐭 𝐅𝐢𝐥𝐞 𝐒𝐞𝐧𝐝 𝐇𝐞𝐫𝐞 ⏍**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -118,7 +118,7 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("✏️ Now Enter A Caption to add caption on your uploaded file Otherwise send**   **`𝙎𝙢𝙚𝙭𝙮 ᥫ᭡`**")
+    await editable.edit("✏️ Now Enter A Caption to add caption on your uploaded file Otherwise send**   **`Զเधे Զเधे ᥫ᭡`**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -180,8 +180,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{res}{MR}.mkv\n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0} \n\n 🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n**'
-                cc1 = f'**𝐩𝐝𝐟_𝐢𝐝📁➤ {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0} \n\n 🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ —»»  [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n**'
+                cc = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{res}{MR}.mkv\n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0} \n\n 🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [Զเधे Զเधे 🦚 ᥫ᭡](http://t.me/SmexyOP)\n**'
+                cc1 = f'**𝐩𝐝𝐟_𝐢𝐝📁➤ {str(count).zfill(3)}. {𝗻𝗮𝗺𝗲𝟭}{MR}.pdf \n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0} \n\n 🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ —»»  [Զเधे Զเधे 🦚 ᥫ᭡](http://t.me/SmexyOP)\n**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -207,7 +207,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**❊⟱𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »**\n\n**📝 𝐍𝐚𝐦𝐞 »** `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n"
+                    Show = f"**❊⟱𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »**\n\n**📝 𝐍𝐚𝐦𝐞 »** `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n𝐌𝐚𝐝𝐞 𝐁𝐲  : [Զเधे Զเधे 🦚 ᥫ᭡](http://t.me/SmexyOP)\n"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -224,7 +224,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**Sb Nikal Diya Babe💕\n MUST JOIN [𝙎𝙈𝙀𝙓𝙔 𝙎𝙏𝙊𝙍𝙀 🇮🇳](http://t.me/SmexyStore)**")
+    await m.reply_text("**Sb Nikal Diya Babe💕**")
 
 
 bot.run()
