@@ -6,6 +6,6 @@ api_id = "25829994"
 
 api_hash = "d58f4ba778637c1a6e14b954774bd564"
 
-bot_token = "7010022869:AAGNMxM2UfkYYbqld29pLgw_zWSeXvbasdM"
+bot_token = "701009:AAGNMxM2UfkYYbqld29pLgw_zWSeXvbasdM"
 
 # Bot Username = "https://t.me/SmexyTxtLeechingBot"
